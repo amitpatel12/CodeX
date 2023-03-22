@@ -1,0 +1,9 @@
+.show{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.show .show-iframe-container{
+    width: 100%;
+    min-height: 100vh;
+}

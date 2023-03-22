@@ -1,0 +1,80 @@
+.account{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-profile{
+    box-shadow: 0 8px 10px 5px rgba(0, 0, 0, 0.2);
+    /* min-width: 50%; */
+    border-radius: 5px;
+    min-width: 300px;
+    width: 40%;
+    padding: 10px;
+    height: 40vh;
+    padding-top: 100px;
+}
+
+
+
+.profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 43%;
+    width: 180px;
+    padding: 14px;
+    background-color: rgb(198, 197, 197);
+    border: 9px solid yellow;
+    font-size: 9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.profile-details{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* width: 300px; */
+    justify-content: flex-start;
+    font-size: 1.2rem;
+
+}
+
+.profile-details div{
+    /* width: 60%; */
+    margin-top: 20px;
+}
+
+.buttons{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 9px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.buttons .logout{
+    background-color: rgb(62, 123, 238);
+    color: rgb(235, 235, 235);
+}
+
+.buttons .delete{
+    background-color: rgb(188, 24, 24);
+    color: rgb(235, 235, 235);
+}
